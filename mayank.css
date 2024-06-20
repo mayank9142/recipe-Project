@@ -1,0 +1,326 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.parent{
+    height: 1555px;
+    width: 100%;
+    background-color: beige;
+}
+#nav{
+    display: flex;
+    background-color: aquamarine;
+    height: 50px;
+
+}
+img{
+    height: 40px;
+    width: 60px;
+    position: absolute;
+    top: 4px;
+    left: 800px;
+    
+}
+#lizero{
+    position: absolute;
+    left: 15px;
+    top: 11px;
+    list-style: none;
+    font-size: 1.4rem;
+    animation-name: wow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay:0s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    
+}
+@keyframes  wow{
+    from{ top:11px;
+            left: 15;
+
+    }
+    to{top: 11px;
+        left: 300px;
+
+    }
+}
+#lione{
+    position: absolute;
+    left: 600px;
+    top: 11px;
+    list-style: none;
+    font-size: 1.5rem;
+}
+#litwo{
+    position: absolute;
+    right: 15px;
+    top: 6px;
+    list-style: none;
+    font-size: 1.5rem;
+    display: flex;
+    gap: 20px;
+
+}
+a{
+    text-decoration: none;
+}
+.box{
+    position: absolute;
+    border: 2px solid black;
+    height: 1425px;
+    width: 1485px;
+    background-color: pink;
+    top: 75px;
+    left: 20px;
+}
+#box1{
+    position: absolute;
+    height: 425px;
+    width: 1418px;
+    border: 2px solid black;
+    top: 35px;
+    left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#box2{
+    position: absolute;
+    height: 425px;
+    width: 1418px;
+    border: 2px solid black;
+    top:500px ;
+    left: 30px;
+
+}
+#box3{
+    position: absolute;
+    height: 425px;
+    width: 1418px;
+    border: 2px solid black;
+    top:970px;
+    left: 32px;
+}
+#footer{
+    display: flex;
+    position: absolute;
+ top: 1412px;
+    left: 45%;
+    top: 1515px;
+    font-size: 25px;
+} 
+#leftone{
+    width: 70%;
+}
+#rightone{
+    position: absolute;
+    top: -4px;
+    left: 198px;
+
+}
+#gj{
+
+    height:425px;
+    width: 420px;
+    border: 1px soloid black;
+}
+#headgj{
+    position: absolute;
+    color: rgb(9, 11, 8);
+    left: 10px;
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#ingredientsgj{
+    position: absolute;
+    top: 52px;
+    left: 15px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#samangj{
+    position: absolute;
+    top: 56px;
+    left: 145px;
+    width: 835px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+}
+.directiongj{
+    position: absolute;
+    top: 180px;
+    left: 143px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    width: 800px;
+}
+#directionheadgj{
+    position: absolute;
+    top: 178px;
+    left: 25px;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: circle;
+}
+
+
+
+
+
+
+
+#leftone2{
+    width: 70%;
+}
+#rightone2{
+    position: absolute;
+    top: -4px;
+    left: 198px;
+
+}
+#brfi{
+
+    height:425px;
+    width: 420px;
+    border: 1px soloid black;
+}
+#headbrfi{
+    position: absolute;
+    color: rgb(9, 11, 8);
+    left: 10px;
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#ingredientsbrfi{
+    position: absolute;
+    top: 52px;
+    left: 15px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#samanbrfi{
+    position: absolute;
+    top: 56px;
+    left: 145px;
+    width: 835px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+}
+.directionbrfi{
+    position: absolute;
+    top: 125px;
+    left: 143px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    width: 800px;
+}
+#directionheadbrfi{
+    position: absolute;
+    top: 120px;
+    left: 29px;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: circle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#leftone3{
+    width: 70%;
+}
+#rightone3{
+    position: absolute;
+    top: 90%;
+    left: 198px;
+
+}
+#snd{
+    position: absolute;
+    top: -382.5px;
+    left: 797px;
+    height:425.5px;
+    width: 423px;
+    /* border: 2px solid black; */
+}
+.headsnd{
+    position: absolute;
+    color: rgb(9, 11, 8);
+    top: 2px;
+    left: 11px;
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.ingredientssnd{
+    position: absolute;
+    top: 55px;
+    left: 12px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.samansnd{
+    position: absolute;
+    top: 61px;
+    left: 139px;
+    width: 835px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+}
+.directionsnd{
+    position: absolute;
+    top: 115px;
+    left: 139px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    width: 800px;
+}
+.directionheadsnd{
+    position: absolute;
+    top: 109px;
+    left:24px;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#home{
+    transition-property: all;
+    transition-duration: 0s;
+    transition-delay: 0s;
+    transition-timing-function: ease-out;
+}
+#home:hover {
+    transform: scale(1.1);
+    color: rgb(93, 0, 255);;}
+
+#contact{
+    transition-property: all;
+    transition-duration: 0s;
+    transition-delay: 0s;
+    transition-timing-function: ease-out;
+}
+#contact:hover {
+    transform: scale(1.1);
+    color: rgb(93, 0, 255);;}
+
+#help{
+    transition-property: all;
+    transition-duration: 0s;
+    transition-delay: 0s;
+    transition-timing-function: ease-out;
+}
+#help:hover {
+/* font-size: larger; */
+color: rgb(93, 0, 255);
+transform: scale(1.1);
+}
